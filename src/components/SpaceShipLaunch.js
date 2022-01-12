@@ -1,5 +1,5 @@
 export default function SpaceShipLaunch(value) {
-   let {value:{launch_year, mission_name, links:{mission_patch_small}}} = value
+   const {value:{launch_year, mission_name, links:{mission_patch_small}}} = value
     return (
         <div className='single_launch'>
             <div className='description'>
