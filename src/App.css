@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.users{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.single_user, .user_details{
+    width: 50%;
+}
+.single_user_inner{
+    display: flex;
+    column-gap: 20px;
+}
+.single_user_inner h3{
+    margin-bottom: 5px;
+}
+.user_details_inner{
+    border-left: 3px solid black;
+    padding-left: 4px;
+    box-sizing: border-box;
+}
+.user_details_inner ul{
+    margin-bottom: 5px;
+}
+.user_details_inner li{
+    margin-left: 25px;
+}
+.user_posts{
+    width: 100%;
+    margin-top: 10px;
+}
+.user_posts_inner{
+    border-top: 3px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}
