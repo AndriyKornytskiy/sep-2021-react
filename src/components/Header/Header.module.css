@@ -1,0 +1,16 @@
+.header{
+    min-height: 70px;
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.header a {
+    text-decoration: none;
+    font-size: 30px;
+    color: springgreen;
+}
+.header a[class='active']{
+    font-size: 40px;
+}

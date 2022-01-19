@@ -1,0 +1,9 @@
+.home_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_page h1 {
+    margin-top: 200px;
+
+}

@@ -1,0 +1,40 @@
+.posts_wrap {
+    display: flex;
+}
+
+.posts_list {
+    width: 50%;
+}
+
+.posts_details {
+    width: 50%;
+}
+
+.posts_list a {
+    color: black;
+    text-decoration: none;
+}
+
+.posts_list h3 {
+    margin-top: 10px;
+}
+
+.posts_details {
+    margin-top: 10px;
+}
+
+.posts_details p {
+     margin-top: 15px;
+    font-size: 18px;
+}
+.posts_details button{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+}
+.posts_details a{
+    text-decoration: none;
+}

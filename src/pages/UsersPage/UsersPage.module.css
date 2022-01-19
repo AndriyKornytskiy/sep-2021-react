@@ -1,0 +1,41 @@
+.users_wrap{
+    display: flex;
+}
+.users_list{
+    width: 50%;
+}
+.users_list a {
+    text-decoration: none;
+    color: black;
+}
+.users_list h2{
+    margin-top: 10px;
+}
+.users_details{
+    width: 50%;
+}
+.users_details h2{
+    margin-top: 10px;
+}
+.users_details ul{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.users_details li {
+    margin-left: 25px;
+    font-size: 18px;
+}
+.users_details button{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+.users_details a {
+    text-decoration: none;
+}
+.users_details button[class='comment_btn']{
+    display: none;
+}
