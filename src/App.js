@@ -1,6 +1,17 @@
 import {Route, Routes} from "react-router-dom";
 
-import {HomePage, NotFoundPage, PostDetailsPage, PostsPage, SinglePostCommentsPage, SingleUserPostsPage, UserDetailsPage, UsersPage} from "./pages";
+import {
+    AlbumsPage,
+    HomePage,
+    NotFoundPage,
+    PhotosPage,
+    PostDetailsPage,
+    PostsPage,
+    SinglePostCommentsPage,
+    SingleUserPostsPage,
+    UserDetailsPage,
+    UsersPage
+} from "./pages";
 import Layout from "./components/Layout/Layout";
 
 function App() {
@@ -12,6 +23,9 @@ function App() {
                     <Route path={'/users'} element={<UsersPage/>}>
                         <Route path={':id'} element={<UserDetailsPage/>}>
                             <Route path={':posts'} element={<SingleUserPostsPage/>}/>
+                        </Route>
+                        <Route path={':id/albums'} element={<AlbumsPage/>}>
+                            <Route path={':albumId/photos'} element={<PhotosPage/>}/>
                         </Route>
                     </Route>
                     <Route path={'/posts'} element={<PostsPage/>}>

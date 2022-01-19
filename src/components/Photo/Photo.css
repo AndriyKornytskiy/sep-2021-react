@@ -1,0 +1,9 @@
+.photo_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.photo_wrap img{
+    width: 100px;
+    height: 100px;
+}

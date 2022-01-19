@@ -1,0 +1,9 @@
+.users{
+    display: flex;
+    align-items: center;
+}
+.users button{
+    width: 60px;
+    height: 30px;
+    margin-left: 15px;
+}
