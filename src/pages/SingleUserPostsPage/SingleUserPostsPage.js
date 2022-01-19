@@ -1,5 +1,6 @@
 import {useLocation} from "react-router-dom";
 import {useEffect, useState} from "react";
+
 import {userService} from "../../services/user.service";
 import PostDetails from "../../components/PostDetails/PostDetails";
 

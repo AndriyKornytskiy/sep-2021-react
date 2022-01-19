@@ -1,8 +1,7 @@
 import {Route, Routes} from "react-router-dom";
 
-import {HomePage, NotFoundPage, PostDetailsPage, PostsPage, SingleUserPostsPage, UserDetailsPage, UsersPage} from "./pages";
+import {HomePage, NotFoundPage, PostDetailsPage, PostsPage, SinglePostCommentsPage, SingleUserPostsPage, UserDetailsPage, UsersPage} from "./pages";
 import Layout from "./components/Layout/Layout";
-import {SinglePostCommentsPage} from "./pages/SinglePostCommentsPage/SinglePostCommentsPage";
 
 function App() {
     return (
