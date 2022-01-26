@@ -1,0 +1,12 @@
+.wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.wrap button{
+    margin-left: 5px;
+}
+.number{
+    text-align: center;
+    font-size: 40px;
+    color: #900;
+}
