@@ -1,0 +1,11 @@
+hr{
+    margin-top: 20px;
+}
+.pets_box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.cats, .dogs{
+    width: 220px;
+}
