@@ -1,0 +1,14 @@
+.toDo_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+h2{
+    margin: 0;
+    font-size: xx-large;
+}
+.change{
+    text-decoration: line-through;
+}
